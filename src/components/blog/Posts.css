@@ -1,0 +1,86 @@
+.posts_outer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.post_item {
+  margin-top: 50px !important;
+  padding: 20px 0px 20px 0px;
+  width: 60%;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.person_and_text {
+  padding: 0px 20px 0px 20px;
+}
+
+.main_post_img {
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.post_images_div {
+  position: relative;
+}
+
+.more_images {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  color: grey;
+}
+
+/* inner page */
+.inner_page {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px 30px;
+  justify-content: space-around;
+}
+.img_container {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+}
+
+.img_container img {
+  width: 100%;
+  filter: drop-shadow(0 0 0.75rem rgb(10, 10, 10));
+}
+
+.inner_right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.inner_text {
+  text-align: left;
+}
+
+.carousel {
+  width: 60%;
+}
+.img_in_carousel {
+  width: 100%;
+  height: 50vh;
+}
+
+@media only screen and (max-width: 640px) {
+  .post_item {
+    width: 90%;
+  }
+}
